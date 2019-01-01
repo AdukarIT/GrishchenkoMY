@@ -7,3 +7,4 @@
 2. https://github.com/AdukarIT/GrishchenkoMY/tree/master/EquipmentStoreV2
 # Практика "Формы. Ссылочные протоколы"
 1. https://codepen.io/Maksoun/pen/GPMmaP
+2. https://codepen.io/Maksoun/pen/GPyKPx
