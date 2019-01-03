@@ -8,3 +8,6 @@
 ## Практика "Формы. Ссылочные протоколы"
 1. [Форма для заказа пиццы](https://codepen.io/Maksoun/pen/GPMmaP)
 2. [Форма отзыва на товар](https://codepen.io/Maksoun/pen/GPyKPx)
+## Домашнее задание "Продвинутый HTML"
+1. [Соцсеть фотографий и видео](https://github.com/AdukarIT/GrishchenkoMY/)
+2. [Сайт руководств по изучению иностранных языков](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Foreign_language_guide)
