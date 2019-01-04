@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Instagram</title>
+  </head>
+  <body>
+    <header>
+    <img src="img/logo.png" height="250" alt="Логотип соцсети"><img src="img/name.jpg" alt="Название соцсети">
+    </header>
+    <hr>
+    <main>
+    	<form method="post" action="feed.html">
+    		<h1>Авторизация</h1>
+    		<p>
+      			<label for="email">Ваш Email:</label><br>
+      			<input type="email" name="email" placeholder="name@example.com">
+    		</p>
+    		<p>
+      			<label for="password">Пароль:</label><br>
+     			<input type="password" name="password" value="000000000">
+    		</p>
+    		<p>
+      			<button type="submit">Войти</button>
+      			<input type="checkbox" name="remember">Запомнить меня
+    		</p>
+  		</form>
+  		<form method="post" action="feed.html">
+    		<h1>Регистрация</h1>
+    		<p>
+      			<label>Ваше имя:</label><br>
+      			<input type="text" name="name" placeholder="Максим">
+    		</p>
+    		<p>
+    			<label>Ваша страна:<br>
+        			<select name="region">
+         				<option value="Belarus">Беларусь</option>
+          				<option value="Russia">Россия</option>
+          				<option value="Ukraine">Украина</option>
+          				<option value="Kazakhstan">Казахстан</option>
+        			</select>
+      			</label>
+      		</p>
+    		<p>
+      			<label for="email">Ваш Email:</label><br>
+      			<input type="email" name="email" placeholder="name@example.com">
+    		</p>
+    		<p>
+      			<label for="password">Придумайте пароль:</label><br>
+     			<input type="password" name="create password" value="000000000">
+    		</p>
+    		<p>
+      			<label for="password">Подтвердите пароль:</label><br>
+     			<input type="password" name="verify password" value="000000000">
+    		<p>
+      			<button type="submit">Зарегистрироваться</button>
+    		</p>
+  		</form>
+    </main>
+  </body>
+</html>
