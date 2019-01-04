@@ -13,7 +13,20 @@
     	<div>
         <a href="feed.html">Вернуться к новостям</a>
       </div>
-      
+      <form method="post" action="feed.html">
+        <h1>Создание нового поста</h1>
+        <p>
+            <label>Текст поста:</label><br>
+            <textarea cols="45" rows="5" name="text"></textarea>
+        </p>
+        <p>
+            <label>Загрузить файл</label><br>
+          <input type="file" accept="image/jpeg,image/png,image/gif,video/mp4" name="add_file">
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+      </form>
     </main>
     <hr>
     <footer>
