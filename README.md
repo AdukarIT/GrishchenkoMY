@@ -11,3 +11,5 @@
 ## Домашнее задание "Продвинутый HTML"
 1. [Соцсеть фотографий и видео](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Instagram)
 2. [Сайт руководств по изучению иностранных языков](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Foreign_language_guide)
+## Практика "Реферат"
+[Титульный лист](https://github.com/AdukarIT/GrishchenkoMY/tree/master/CSS%20Ref)
