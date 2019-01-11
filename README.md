@@ -15,4 +15,4 @@
 [Титульный лист](https://github.com/AdukarIT/GrishchenkoMY/tree/master/CSS%20Ref)
 ## Практика "Позиционирование"
 1. [Индикатор загрузки](https://codepen.io/Maksoun/pen/GPXggW)
-2. [Модальное окно](https://codepen.io)
+2. [Модальное окно](https://codepen.io/Maksoun/pen/LMgJxP)
