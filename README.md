@@ -17,4 +17,4 @@
 1. [Индикатор загрузки](https://codepen.io/Maksoun/pen/GPXggW)
 2. [Модальное окно](https://codepen.io/Maksoun/pen/LMgJxP)
 ## Практика "CSS. Float. Иерархические селекторы и пcевдоклассы"
-[Кнопка-выключатель](https://codepen.io/Maksoun/pen/JwVPrz)
+[Кнопка-выключатель с всплывающей подсказкой](https://codepen.io/Maksoun/pen/JwVPrz)
