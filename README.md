@@ -18,3 +18,5 @@
 2. [Модальное окно](https://codepen.io/Maksoun/pen/LMgJxP)
 ## Практика "CSS. Float. Иерархические селекторы и пcевдоклассы"
 [Кнопка-выключатель с всплывающей подсказкой](https://codepen.io/Maksoun/pen/JwVPrz)
+## Домашнее задание "Float. Псевдоклассы и составные селекторы"
+[Основы CSS. Позиционирование](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Order_form)
