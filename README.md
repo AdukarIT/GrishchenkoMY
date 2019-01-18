@@ -20,3 +20,5 @@
 [Кнопка-выключатель с всплывающей подсказкой](https://codepen.io/Maksoun/pen/JwVPrz)
 ## Домашнее задание "Float. Псевдоклассы и составные селекторы"
 [Основы CSS. Позиционирование](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Order_form)
+## Практика "CSS. Именование классов. HTML5-формы и их стилизация"
+[HTML5-формы и их стилизация](https://codepen.io/Maksoun/pen/ebaWOv)
