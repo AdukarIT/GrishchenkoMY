@@ -1,0 +1,132 @@
+<!DOCTYPE .html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Страница заказа</title>
+    </head>
+    <body>
+        <header>
+            <div class="top-bar">
+                <div class="cities">
+                    <label> Ваш город:
+                        <select name="region">
+                            <option value="Brest">Брест</option>
+                            <option value="Vitebsk">Витебск</option>
+                            <option value="Gomel">Гомель</option>
+                            <option value="Grodno">Гродно</option>
+                            <option value="Minsk">Минск</option>
+                            <option value="Mogilev">Могилев</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="search">Поиск товаров:
+                    <input  type="search" name="q" placeholder="Поиск по сайту"> 
+                    <input type="submit" value="Найти">
+                </div>
+                <div class="delivery"><a href="#order">Оформление заказа</a></div>
+                <a href="#"><img src="img/cart.jpg" class="cart" alt="корзина"></a>
+            </div>
+            <div class="store">
+            <img src="img/logo.png" alt="store-logo" class="logo">
+            <img src="img/call.jpg" alt="Телефон техподдержки" class="support">
+            <span class="store-name">ЭЛЕМЕНТ</span>
+            <span class="under-name">Бытовая техника и электроника</span>
+            </div>    
+        </header>
+        <main>
+            <ul class="menu">
+                <li><a href="#">Бытовая техника</a>
+                    <ul class="submenu">
+                        <li><a href="#">Стиральные машины</a></li>
+                        <li><a href="#">Пылесосы</a></li>
+                        <li><a href="#">Швейные, вышивальные машины</a></li>
+                        <li><a href="#">Утюги</a></li>
+                        <li><a href="#">Электровеники</a></li>
+                        <li><a href="#">Сушилки для обуви</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Техника для кухни</a>
+                    <ul class="submenu">
+                        <li><a href="#">Холодильники</a></li>
+                        <li><a href="#">Кухонные плиты</a></li>
+                        <li><a href="#">Морозильники</a></li>
+                        <li><a href="#">Настольные плиты</a></li>
+                        <li><a href="#">Ростеры, мини-печи</a></li>
+                        <li><a href="#">Вытяжки</a></li>
+                        <li><a href="#">Микроволновые печи</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Компьютерная техника</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ноутбуки</a></li>
+                        <li><a href="#">Планшеты</a></li>
+                        <li><a href="#">Компьютеры, моноблоки</a></li>
+                        <li><a href="#">Игровые приставки</a></li>
+                        <li><a href="#">Серверное оборудование</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Корзина </a>
+                    <ul class="submenu">
+                        <li><a href="#">Список добавленных товаров</a></li>
+                        <li><a href="#">Получить скидку</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="order" id="order">
+                <form class="form-registration" action="cart.html">
+                <h1>Оформление заказа</h1>
+                <p class="first-name">
+                    <label>Имя:
+                    <input type="text" name="first-name" placeholder="Имя" required>
+                    </label>
+                </p>
+                <p class="last-name">
+                    <label>Фамилия:
+                    <input type="text" name="last-name" placeholder="Фамилия" required>
+                    </label>
+                </p>
+                <p class="tel">
+                    <label>Номер телефона:
+                    <input type="tel" name="tel-number" placeholder="(000)-000-00-00" required>
+                    </label>
+                </p>
+                <div class="delivery-ways">
+                    <p class="delivery-way">Выберите способ доставки:</p>
+                    <input type="checkbox" id="hd-1" class="hide">
+                    <label for="hd-1" >&#9660Самовывоз со склада</label>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1356.8857938577078!2d27.650649392230715!3d53.93407984258107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb3b7147aa237458!2zNSDRjdC70LXQvNC10L3Rgg!5e0!3m2!1sru!2sby!4v1547798750713" width="600" height="450"></iframe>
+                    </div>
+                    <br>
+                    <input type="checkbox" id="hd-2" class="hide">
+                    <label for="hd-2">&#9660Курьером по Минску</label>
+                    <div>Адрес доставки:
+                        <input type="text" name="address">
+                    </div>
+                </div>
+                <p class="comment">
+                    <label>Комментарий к заказу:<br>
+                        <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+                    </label>
+                </p>
+                <div class="check">
+                    <label for="checkbox">Я прочитал и согласен с <a href="#" class="delivery-terms">условиями доставки</a>:
+                    <input type="checkbox" name="checkbox" id="checkbox" onchange="document.getElementById('submit').disabled = !this.checked;">
+                    </label>
+                <br>
+                <br>
+                    <input class="form-input_type-submit" type="submit" disabled="disabled" name="submit" id="submit" value="Подтвердить заказ">
+                </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="bottom-bar">
+                <p class="info">Наши контакты: Тел. (017) 359-59-59, Skype: 5element_bel</p>
+                <p class="info">Адрес: <address>ул. Петра Мстиславца 11</address></p>
+                <p class="info">Время работы: 8:00 - 22:00 ежедневно</p>    
+            </div>               
+        </footer>
+    </body>
+</html>
