@@ -1,0 +1,41 @@
+@font-face {
+  font-family: fontello;
+  src: url("font/fontello.woff");
+}
+body {
+  margin: 5em;
+}
+span {
+  width: 1em;
+  font-family: fontello;
+  color: #0000CD;
+  padding: 0.2em;
+  border: 3px solid rgba(255,0,0, .75);
+}
+.on-off-volume {
+  font-size: 2em;
+  cursor: pointer;
+  padding: 1em;
+  border: 2px solid rgba(154,205,50, .9);
+  border-radius: 10px;
+  background-color: rgba(255,255,0, .85);
+}
+.on-off-volume:hover {
+  background-color: rgba(255,255,0, .7); 
+}
+.on-off-volume_checkbox {
+  display: none;
+}
+.on-off-volume_checkbox--volume-off {
+  display: none;
+}
+.on-off-volume_checkbox--volume-on {
+  display: inline-block;
+}
+.on-off-volume_checkbox:checked ~ .on-off-volume_checkbox--volume-on {
+  display: none;
+}
+.on-off-volume_checkbox:checked ~ .on-off-volume_checkbox--volume-off {
+  display: inline-block;
+}
+

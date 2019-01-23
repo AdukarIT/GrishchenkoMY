@@ -1,0 +1,38 @@
+@font-face {
+	font-family: fontello;
+	src: url("font/fontello.woff");
+}
+body {
+	margin: 3em;
+}
+span {
+	font-family: fontello;
+	font-size: 5em;
+ }
+ a {
+	text-decoration: none;
+}
+.like_switch [type="checkbox"] {
+	display: none;
+}
+.like_switch--icon-heart {
+	display: none;
+}
+.like_switch--icon-heart-empty {
+color: #808080;
+}
+label:hover .like_switch--icon-heart-empty {
+	color: #0000FF;
+	cursor: pointer;
+}
+.like_switch--check:checked ~ .like_switch--icon-heart-empty {
+	display: none;
+}
+.like_switch--check:checked ~ .like_switch--icon-heart {
+	display: inline-block;
+	color: #FF0000;
+}
+label:hover .like_switch--check:checked ~ .like_switch--icon-heart {
+	color: rgba(255, 0, 0, .7);
+	cursor: pointer;
+}

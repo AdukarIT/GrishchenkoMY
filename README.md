@@ -22,3 +22,7 @@
 [Основы CSS. Позиционирование](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Order_form)
 ## Практика "CSS. Именование классов. HTML5-формы и их стилизация"
 [HTML5-формы и их стилизация](https://codepen.io/Maksoun/pen/ebaWOv)
+## Домашнее задание "CSS. Стилистическое оформление элементов"
+[Задание 1. Пляж](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Beach)
+[Задание 2. Лайк](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Like)
+[Задание 3. Чекбокс](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Checkbox)
