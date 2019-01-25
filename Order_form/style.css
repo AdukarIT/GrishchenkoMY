@@ -20,13 +20,14 @@ ul:after {
     display: block;
     content: ' ';
     clear: both;
-    float: none;
+    float: none;*/
 }
 ul.menu > li {
-    width: 24.8%;
+    width: 25%;
     border: 1px solid;
     border-top: 2px solid;
     border-bottom: 2px solid;
+    box-sizing: border-box;
     float: left;
     position: relative;
 }
@@ -82,13 +83,13 @@ li {
     top: 0;
 }
 .cities {
-    padding-left: 2em;
+    padding-left: 1em;
     padding-top: 0.4em;
     display: inline;
     float: left;
 }
 .search {
-    padding-left: 2em;
+    padding-left: 1em;
     padding-top: 0.4em;
     float: left;
 }
@@ -99,7 +100,7 @@ li {
     height: 30px;
 }
 .delivery {
-    padding-left: 2em;
+    padding-left: 1em;
     padding-top: 0.4em;
     float: left;
     color: rgba(255, 0, 0, .8);
@@ -124,14 +125,14 @@ li {
 }
 .store-name {
     font-size: 6em;
-    font-family: "Impact", fantasy, sans-serif, serif;
+    font-family: "Impact", fantasy;
     font-style: oblique;
     border-bottom: 3px solid;
 }
 .under-name {
     display: block;
     font-size: 1.5em;
-    font-family: "Impact", fantasy, sans-serif, serif;
+    font-family: "Impact", fantasy;
 }
 .support {
     float: right;

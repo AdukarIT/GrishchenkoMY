@@ -23,6 +23,7 @@
 ## Практика "CSS. Именование классов. HTML5-формы и их стилизация"
 [HTML5-формы и их стилизация](https://codepen.io/Maksoun/pen/ebaWOv)
 ## Домашнее задание "CSS. Стилистическое оформление элементов"
-[Задание 1. Пляж](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Beach)
-[Задание 2. Лайк](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Like)
-[Задание 3. Чекбокс](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Checkbox)
+1. [Пляж](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Beach)
+2. [Лайк](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Like)
+3. [Чекбокс](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Checkbox)
+4. [Header магазина](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Header)
