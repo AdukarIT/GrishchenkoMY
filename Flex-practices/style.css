@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.tiles {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+}
+.tile {
+    padding-top: 3em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    flex: 100%;
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+}
+.small-tile {
+    flex: 50%;
+}
+.first {
+    background: rgb(123, 104, 238);
+}
+.second {
+    background: rgb(255, 127, 80);
+}
+.third {
+    background: rgb(0, 255, 127);
+}
+.fourth {
+    background: rgb(205, 92, 92);
+}
+.fifth {
+    background: rgb(255, 165, 0);
+}
+.sixth {
+    background: rgb(119, 136, 153);
+}
