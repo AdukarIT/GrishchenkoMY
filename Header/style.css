@@ -1,10 +1,11 @@
 .body {
-	width: 80%;
+	width: 100%;
 	border: 2px solid;
 	margin:0 auto;
 	padding: 2em;
 	border-top: 4px solid;
-	border-bottom: 4px solid; 
+	border-bottom: 4px solid;
+	box-sizing: border-box; 
 }
 
 .logo {

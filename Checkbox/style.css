@@ -23,19 +23,19 @@ span {
 .on-off-volume:hover {
   background-color: rgba(255,255,0, .7); 
 }
-.on-off-volume_checkbox {
+.on-off-volume__checkbox {
   display: none;
 }
-.on-off-volume_checkbox--volume-off {
+.on-off-volume__checkbox--volume-off {
   display: none;
 }
-.on-off-volume_checkbox--volume-on {
+.on-off-volume__checkbox--volume-on {
   display: inline-block;
 }
-.on-off-volume_checkbox:checked ~ .on-off-volume_checkbox--volume-on {
+.on-off-volume__checkbox:checked ~ .on-off-volume__checkbox--volume-on {
   display: none;
 }
-.on-off-volume_checkbox:checked ~ .on-off-volume_checkbox--volume-off {
+.on-off-volume__checkbox:checked ~ .on-off-volume__checkbox--volume-off {
   display: inline-block;
 }
 
