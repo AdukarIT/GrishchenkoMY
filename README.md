@@ -35,9 +35,9 @@
 ## Практика "Адаптивная вёрстка"
 1. [Адаптивная страница](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Adaptive-page)
 2. [Горизонтальное меню, прячущееся под “бургер”](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Burger)
-<strike>## Практика "Эффекты. Анимация"
-[Анимация кнопки “Мне нравится”]()
-## Домашнее задание "CSS. Анимации"
+## Практика "Эффекты. Анимация"
+<strike>[Анимация кнопки “Мне нравится”]()</strike>
+## Домашнее задание "CSS. Анимации"<strike>
 1. [Прыгающий мяч]()
 2. [Вентилятор]()
 3. [Спрайты]()</strike>
