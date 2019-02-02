@@ -27,3 +27,17 @@
 2. [Лайк](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Like)
 3. [Чекбокс](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Checkbox)
 4. [Header магазина](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Header)
+## Практика "Flexbox"
+[Flexbox](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Flex-practices)
+## Домашнее задание "CSS. Flexbox"
+1. [Header Adukar](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Header_Adukar)
+2. <strike>[ВКонтакте](https://github.com/AdukarIT/GrishchenkoMY/tree/master/VK)</strike>
+## Практика "Адаптивная вёрстка"
+1. [Адаптивная страница](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Adaptive-page)
+2. [Горизонтальное меню, прячущееся под “бургер”](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Burger)
+<strike>## Практика "Эффекты. Анимация"
+[Анимация кнопки “Мне нравится”]()
+## Домашнее задание "CSS. Анимации"
+1. [Прыгающий мяч]()
+2. [Вентилятор]()
+3. [Спрайты]()</strike>

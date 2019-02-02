@@ -3,81 +3,104 @@ body {
 	font-family: Verdana, sans-serif;
 	color: #fff;
 }
+
 .adukar-logo {
 	height: 40px;
 }
+
 .Adukar-header {
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/background.jpg");
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: 50% 55%;
-	border: 0px solid rgba(0, 0, 0, 0);
-	box-sizing: border-box;
-	height: 700px;
+	height: 570px;
 	padding: 2em;
 }
+
 .top-bar {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start; 
 }
+
 .info-box {
 	flex-grow: 1;
 	text-align: center; 
 }
-.Adukar-header_about, .Adukar-header_contacts {
+
+.Adukar-header__about, .Adukar-header__contacts {
 	display: inline-block;
 	padding: 1em;
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+.Adukar-header__about > a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.Adukar-header__contacts > a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
 a {
 	text-decoration: none;
 }
+
 a:link, a:visited, a:active {
 	color: #fff;
 }
-.Adukar-header_telephone {
+
+.Adukar-header__telephone {
 	font-size: 1.1em;
 	padding-right: 2em;
 	padding-top: 0.25em;
 }
-.middle-bar, .Adukar-header_features {
+
+.middle-bar, .Adukar-header__features {
 	padding-top: 70px;
 	display: flex;
 	justify-content: center;
 }
+
 .middle-bar {
 	text-align: center;
 }
-.Adukar-header_middle-text > p {
+
+.Adukar-header__middle-text > p {
 	font-size: 150%;
 	font-style: oblique;
 }
-.Adukar-header_features {
+
+.Adukar-header__features {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
-.Adukar-header_features > img {
+
+.Adukar-header__features > img {
 	height: 70px;
 	padding-right: 1em;
 }
-.Adukar-header_features > span {
+
+.Adukar-header__features > span {
 	height: 60px;
 	width: 350px;
 	font-size: 1.3em;
 }
-.Adukar-header_bottom-text {
+
+.Adukar-header__bottom-text {
 	font-size: 1.4em;
 }
+
 .bottom-bar {
-	padding-top: 70px;
+	padding-top: 35px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 input {
 	padding: 0.5em;
 	color: #fff;
@@ -86,4 +109,22 @@ input {
 	font-weight: bold;
 	background: #FF6347;
 	border: 2px solid #FF6347; 
+}
+
+input:hover {
+	padding: 0.5em;
+	color: #FF4500;
+	border-radius: 5px;
+	font-size: 1.3em;
+	font-weight: bold;
+	background: #FFF;
+	border: 2px solid #FF6347; 
+}
+
+.Adukar-header__about > a:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.Adukar-header__contacts > a:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
