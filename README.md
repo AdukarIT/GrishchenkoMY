@@ -31,7 +31,7 @@
 [Flexbox](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Flex-practices)
 ## Домашнее задание "CSS. Flexbox"
 1. [Header Adukar](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Header_Adukar)
-2. <strike>[ВКонтакте](https://github.com/AdukarIT/GrishchenkoMY/tree/master/VK)</strike>
+2. [ВКонтакте](https://github.com/AdukarIT/GrishchenkoMY/tree/master/VK)
 ## Практика "Адаптивная вёрстка"
 1. [Адаптивная страница](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Adaptive-page)
 2. [Горизонтальное меню, прячущееся под “бургер”](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Burger)
