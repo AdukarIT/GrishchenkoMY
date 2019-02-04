@@ -21,7 +21,7 @@ span {
 }
 
 .like__switch--icon-heart-empty {
-color: #808080;
+	color: #808080;
 }
 
 label:hover .like__switch--icon-heart-empty {
@@ -35,9 +35,8 @@ label:hover .like__switch--icon-heart-empty {
 
 .like__switch--check:checked ~ .like__switch--icon-heart {
 	display: inline-block;
-	color: #FF0000;
+	color: rgba(255, 0, 0, 1);
 }
-
 label:hover .like__switch--check:checked ~ .like__switch--icon-heart {
 	color: rgba(255, 0, 0, .7);
 	cursor: pointer;
