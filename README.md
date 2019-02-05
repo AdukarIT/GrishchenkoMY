@@ -36,7 +36,7 @@
 1. [Адаптивная страница](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Adaptive-page)
 2. [Горизонтальное меню, прячущееся под “бургер”](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Burger)
 ## Практика "Эффекты. Анимация"
-<strike>[Анимация кнопки “Мне нравится”]()</strike>
+[Анимация кнопки “Мне нравится”](https://codepen.io/Maksoun/pen/JxyZmV)
 ## Домашнее задание "CSS. Анимации"<strike>
 1. [Прыгающий мяч]()
 2. [Вентилятор]()
