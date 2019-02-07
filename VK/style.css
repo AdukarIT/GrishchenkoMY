@@ -35,9 +35,14 @@
 	padding-left: 0.5em;
 }
 
+.top-bar__logo:hover {
+	cursor: pointer;
+}
+
 .top-bar__search-form {
 	padding-left: 9.5em;
 	padding-top: 0.6em;
+	padding-right: 1em;
 }
 
 .search__search-field {
@@ -63,12 +68,23 @@
 .search__search-field::-webkit-input-placeholder { color: rgba(220, 220, 220, 0.7); }
 
 .top-bar__notify-icon {
-	padding-left: 1.7em;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+
+.top-bar__notify-icon:hover {
+	background-color: rgba(34, 75, 120, .4);
+	cursor: pointer;
 }
 
 .top-bar__audio-icon {
-	padding-left: 1.7em;
-	padding-right: 1em;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+
+.top-bar__audio-icon:hover {
+	background-color: rgba(34, 75, 120, .4);
+	cursor: pointer;
 }
 
 .top-bar__play-button {
@@ -84,6 +100,10 @@
     color: rgba(255, 255, 255, .7);
 }
 
+.top-bar__play-button:hover {
+    background-color: #2b4667;
+}
+
 .play-button-decoration {
 	position: absolute;
 	width: 0;
@@ -95,10 +115,18 @@
 	margin-top: 0.2em;
 }
 
+.play-button-decoration:hover {
+	border-right: 10px solid #2b4667;
+}
+
 .top-bar__user {
- 	margin-left: 19em;
+	margin-left: 19em;
  	margin-top: 0.3em;
  	color: #fff;
+}
+
+.top-bar__user:hover {
+	cursor: pointer;
 }
 
 .user__user-info {
@@ -241,11 +269,6 @@
 
 		/*STYLES FOR THE RIGHT PANEL*/
 
-
-/*.main__right-panel {
-	position: fixed;
-	right: 300px;
-}*/
 
 .right-panel__panel {
 	border: 1px solid rgb(220, 220, 220);
@@ -407,11 +430,6 @@
  	justify-content: space-between;
 }
 
-/*.main__feed {
-	display: flex;
-	flex-direction: column;
-}*/
-
 .feed__post-content {
 	border: 1px solid rgb(220, 220, 220);
 	box-sizing: border-box;
@@ -551,5 +569,3 @@
 .post-footer__share:hover { 
 	opacity: 1;
 }
-
-
