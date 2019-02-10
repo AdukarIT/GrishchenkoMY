@@ -115,18 +115,20 @@
 	margin-top: 0.2em;
 }
 
-.play-button-decoration:hover {
-	border-right: 10px solid #2b4667;
+.top-bar__play-button:hover > .play-button-decoration {
+    border-right: 10px solid #2b4667;
 }
 
 .top-bar__user {
 	margin-left: 19em;
- 	margin-top: 0.3em;
+ 	padding-top: 0.3em;
  	color: #fff;
+ 	padding-right: 8.9em;
 }
 
 .top-bar__user:hover {
 	cursor: pointer;
+	background-color: rgba(34, 75, 120, .4);
 }
 
 .user__user-info {
