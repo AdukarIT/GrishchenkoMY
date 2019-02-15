@@ -37,7 +37,7 @@
 2. [Горизонтальное меню, прячущееся под “бургер”](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Adaptive_layout_practice/Burger)
 ## Практика "Эффекты. Анимация"
 [Анимация кнопки “Мне нравится”](https://codepen.io/Maksoun/pen/JxyZmV)
-## Домашнее задание "CSS. Анимации"<strike>
-1. [Прыгающий мяч]()
-2. [Вентилятор]()
-3. [Спрайты]()</strike>
+## Домашнее задание "CSS. Анимации"
+1. [Прыгающий мяч](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Ball)
+2. [Вентилятор](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Fan)<strike>
+3. [Спрайты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Sprites)</strike>
