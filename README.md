@@ -39,5 +39,5 @@
 [Анимация кнопки “Мне нравится”](https://codepen.io/Maksoun/pen/JxyZmV)
 ## Домашнее задание "CSS. Анимации"
 1. [Прыгающий мяч](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Ball)
-2. [Вентилятор](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Fan)<strike>
-3. [Спрайты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Sprites)</strike>
+2. [Вентилятор](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Fan)
+3. [Спрайты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Sprites)
