@@ -1,0 +1,16 @@
+* {
+	margin: 15vh auto;
+}
+.subzero {
+	width: 66px;
+	height: 135px;
+	background: url("subzero.jpg") left center;
+}
+
+@keyframes play {
+	100% { background-position: -396px; }
+}
+
+ .subzero:hover {
+	animation: play 0.3s infinite steps(6) alternate 1ms;
+}
