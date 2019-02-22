@@ -41,3 +41,5 @@
 1. [Прыгающий мяч](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Ball)
 2. [Вентилятор](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Fan)
 3. [Спрайты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Sprites)
+## Домашнее задание "SCSS"<strike>
+[Реализация страницы http://designclub.by ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Designclub.by)</strike>
