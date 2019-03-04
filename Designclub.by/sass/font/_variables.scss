@@ -1,0 +1,77 @@
+.element-box {
+	.fa-bullhorn {
+		&:before {
+          content: "\f0a1";
+		}
+    }
+}
+
+.element-box {
+	.fa-map-marker {
+		&:before {
+          content: "\f041";
+		}
+    }
+}
+
+.element-box {
+	.fa-thumbs-up {
+		&:before {
+          content: "\f164";
+		}
+    }
+}
+
+.element-box {
+	.fa-handshake-o {
+		&:before {
+          content: "\f2b5";
+		}
+    }
+}
+
+.element-box {
+	.fa-users {
+		&:before {
+          content: "\f0c0";
+		}
+    }
+}
+
+.element-box {
+	.fa-question-circle {
+		&:before {
+          content: "\f059";
+		}
+    }
+}
+
+.middle-field__socials {
+	.fa-telegram:before {
+		content: "\f2c6";
+	}	
+}
+
+.middle-field__socials {
+	.fa-facebook:before {
+		content: "\f09a";
+	}	
+}
+
+.middle-field__socials {
+	.fa-vk:before {
+		content: "\f189";
+	}	
+}
+
+.middle-field__socials {
+	.fa-instagram {
+		content: "\f16d";
+	}	
+}
+
+.middle-field__socials {
+	.fa-twitter {
+		content: "\f099";
+	}	
+}

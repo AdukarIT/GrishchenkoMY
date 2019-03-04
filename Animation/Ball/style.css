@@ -20,7 +20,7 @@ label {
     border-radius: 50px;
     background: url("soccer-ball.png") center no-repeat;
     background-size: contain;
-    transition: transform ease-out 15s, ease 4s;
+    transition: transform ease 4s;
 }
 
 #ball:checked + label {
