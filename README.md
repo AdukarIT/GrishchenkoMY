@@ -48,6 +48,6 @@
 ## Практика "CSS Grid"
 [Онлайнер](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)</strike>
 ## Итоговая рабта по верстке
-1. [foodsence.is](https://github.com/Maksoun/GrishchenkoProject/blob/master/public/index.html)
+1. [foodsence.is](https://maksoun.github.io/GrischchenkoProject/public/index.html)
 2. [foodsence.is/blog](https://github.com/Maksoun/GrishchenkoProject/blob/master/public/blog.html)
 3. [foodsence.is/tastemakers](https://github.com/Maksoun/GrishchenkoProject/blob/master/public/tastemakers.html)
