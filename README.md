@@ -42,4 +42,12 @@
 2. [Вентилятор](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Fan)
 3. [Спрайты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Sprites)
 ## Домашнее задание "SCSS"<strike>
-[Реализация страницы http://designclub.by ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Designclub.by)</strike>
+[Реализация страницы http://designclub.by ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)
+## Практика "Bootstrap"
+[Форма заказа](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)
+## Практика "CSS Grid"
+[Онлайнер](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)</strike>
+## Итоговая рабта по верстке
+1. [foodsence.is](https://github.com/Maksoun/GrishchenkoProject/public/index.html)
+2. [foodsence.is/blog](https://github.com/Maksoun/GrishchenkoProject/public/blog.html)
+3. [foodsence.is/tastemakers](https://github.com/Maksoun/GrishchenkoProject/public/tastemakers.html)
