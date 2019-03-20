@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Open Sans", Arial, Helvetica, Verdana, sans-serif;
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.description {
+  font-size: 1.3em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 400px;
+}
+.container img {
+  width: 60%;
+}
+
+.one {
+  grid-area: 1/1/3/1;
+  background-color: orange;
+}
+
+.two {
+  background-color: lightseagreen;
+}
+
+.three {
+  background-color: steelblue;
+}
+
+.four {
+  background-color: lightpink;
+}
+
+.five {
+  background-color: skyblue;
+}
+
+.six {
+  background-color: mediumpurple;
+}
+
+.seven {
+  background-color: mediumblue;
+}
+
+/*# sourceMappingURL=main.css.map */
