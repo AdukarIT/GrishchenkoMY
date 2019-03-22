@@ -52,3 +52,6 @@
 2. [foodsence.is/blog](https://maksoun.github.io/public/blog.html)
 3. [foodsence.is/tastemakers](https://maksoun.github.io/public/tastemakers.html)
 4. [project folder](https://github.com/Maksoun/maksoun.github.io)
+## Домашнее задание "Операторы. Циклы"
+[ДЗ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw#1/homework)
+[Практика](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw#1/practice)
