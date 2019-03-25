@@ -1,14 +1,9 @@
-let x = prompt("Введите год"); //ОШИБКА
+let x = prompt("Введите год");
 if (x % 4 != 0) {
-	consloe.log("Этот год обычный");
-	} else {
-		if (x % 100 != 0) {
-			consloe.log("Этот год обычный");
-			} else {
-		if (x % 400 != 0) {
-			consloe.log("Этот год обычный");
-			} else {
-				consloe.log("Год високосный");
-			} 
-		
-}
+	console.log("Этот год обычный");
+} else if (x % 100 != 0) {
+	console.log("Год високосный");
+} else if (x % 400 != 0) {
+	console.log("Этот год обычный");
+} else 
+	console.log("Год високосный");
