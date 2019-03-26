@@ -2,7 +2,25 @@
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 400px;
+	/* justify-items: center;
+	align-items: center; */
+	a {
+		display: block;
+		height: 100%;
+	}
+	a:hover {
+		background-color: rgba(0, 0, 0, .3);
+	}
+	span {
+		display: block;
+	}
 	img {
 		width: 60%;
+	}
+	.label {
+		display: inline-block;
+		border: 1px solid rgb(255, 0, 0);
+		border-radius: 5px;
+		background-color: rgb(255, 0, 0);
 	}
 }

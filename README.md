@@ -44,9 +44,9 @@
 ## Домашнее задание "SCSS"
 [Реализация страницы http://designclub.by ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Designclub.by)
 ## Практика "Bootstrap"<strike>
-[Форма заказа](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)
+[Форма заказа](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)</strike>
 ## Практика "CSS Grid"
-[Онлайнер](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)</strike>
+[Онлайнер](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Grid)
 ## Итоговая рабта по верстке
 1. [foodsence.is](https://maksoun.github.io/public/index.html) 
 2. [foodsence.is/blog](https://maksoun.github.io/public/blog.html)
