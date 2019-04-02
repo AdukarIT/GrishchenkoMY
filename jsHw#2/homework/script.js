@@ -63,11 +63,10 @@ function quadraticEquation (a, b, c) {
 		if (D == 0) {
 			let x;
 			console.log(x = (-b) / (2 * a));
-				return("Один корень");
+				return('Один корень');
 		}
 		if (D < 0) {
-				return("Нет корней");
+				return('Нет корней');
 		}
 }
-
 console.log(quadraticEquation(2, 9, -5));
