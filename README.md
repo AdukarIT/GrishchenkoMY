@@ -55,3 +55,6 @@
 ## Домашнее задание "Операторы. Циклы"
 1. [ДЗ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%231/homework)
 2. [Практика](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%231/practice)
+## Функции
+1. [ДЗ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232/homework)
+2. [Практика](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232/practice)
