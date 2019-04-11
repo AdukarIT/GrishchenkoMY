@@ -205,9 +205,36 @@ someNums();
 console.log('____________________________________________'); 
 console.log('T   a   s   k   10');
 
+function getDividers() {
+   for (i = 2; i <= 20; i++) {
+     for (j = 1; j <= 20; j++) {
+       if (!(i % j)) {
+         console.log(j);
+       }
+     }
+     console.log("↑ делители числа " + i);
+   }
+ }
+ getDividers();
+
 //Task 11 Решите задачу 10 в общем виде: вместо 2 и 20 – аргументы x и y.
 console.log('____________________________________________'); 
 console.log('T   a   s   k   11');
+
+function getThisDividers(firstValue, secondValue) {
+   if (firstValue < 2 || secondValue > 20){
+      return console.log("Ошибка");
+   }
+   for (i = firstValue; i <= secondValue; i++) {
+     for (j = 1; j <= secondValue; j++) {
+       if (!(i % j)) {
+         console.log(j);
+       }
+     }
+     console.log("↑ делители числа " + i);
+   }
+ }
+ getThisDividers(4,7);
 
 //Task 12 Создайте функцию с параметрами size (число) и unit (строка). В unit передаются единицы измерения информации («Кб», «Мб», «Гб»), в size – количество таких единиц.
 //Функция возвращает количество байт в size.
