@@ -1,12 +1,12 @@
 //Task 1 Создайте массив и в цикле заполните его чётными числами от 2 до 20.
 
-let array = [];
+/*let array = [];
 	for (let i = 2; i <= 20; i++) {
 			if (i % 2 == 0) {
 				array.push(i);
 			}
 	}
-console.log(array);
+console.log(array);*/
 
 /*let array = [];
 	for (let i = 2; i <= 20; i+=2) {
@@ -16,18 +16,18 @@ console.log(array);*/
 
 //Task 2 Преобразуйте массив из задачи 1 так, чтобы его элементы стали равны своему индексу, умноженному на 5.
 
-let array = [];
+/*let array = [];
 	for (let i = 2; i <= 20; i+=2) 
 				array.push(i);
 console.log(array);
 
 for (let i = 0; i < array.length; i++)
 array[i] = i * 5;
-console.log(array);
+console.log(array);*/
 
 //Task 3 Получите от пользователя три числа, создайте из них массив. Используя циклы, найдите наибольшее из чисел и разделите на него каждый элемент массива.
 
-let a = +prompt('First');
+/*let a = +prompt('First');
 let b = +prompt('Second');
 let c = +prompt('Third');
 
@@ -51,9 +51,14 @@ let newArray = [];
 for (i = 0; i <= arr.length - 1; i++) {
 	newArray.push(arr[i] / more);
 }
-console.log(newArray);
+console.log(newArray);*/
 
+//Task 4 Преобразуйте массив из задачи 2 так, чтобы его элементы расположились в обратном порядке.
 
-//Task 5 Создайте массив из чисел от 1 до 35. Вырежьте из него первые 10 элементов, а затем добавьте их в конец массива.
-//Разверните в обратном порядке элементы с 11 по 20. Удалите элементы с 21 по 25, на их место вставьте пять первых степеней двойки.
-//Элементы с 26 по 30 замените на единицы. Элементы с 31 по 35 склейте в одну строку, разделяя пробелами, и замените на итоговую строку.
+let arr = [1, 3, 5, 6, 7, 9];
+let result = [];
+for (var i = arr.length - 1; i >= 0; i--) {
+	result.push(arr[i]);
+}
+console.log(result);
+
