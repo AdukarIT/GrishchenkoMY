@@ -58,3 +58,9 @@
 ## Функции
 1. [ДЗ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232/homework)
 2. [Практика](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232/practice)
+## Поиск ошибок и отладка кода. Практика
+https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%233
+## Массивы
+https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%234
+## Объекты
+https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%235
