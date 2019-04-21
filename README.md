@@ -43,8 +43,6 @@
 3. [Спрайты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Animation/Sprites)
 ## Домашнее задание "SCSS"
 [Реализация страницы http://designclub.by ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Designclub.by)
-## Практика "Bootstrap"<strike>
-[Форма заказа](https://github.com/AdukarIT/GrishchenkoMY/tree/master/)</strike>
 ## Практика "CSS Grid"
 [Онлайнер](https://github.com/AdukarIT/GrishchenkoMY/tree/master/Grid)
 ## Итоговая рабта по верстке
@@ -53,14 +51,14 @@
 3. [foodsence.is/tastemakers](https://maksoun.github.io/public/tastemakers.html)
 4. [project folder](https://github.com/Maksoun/maksoun.github.io)
 ## Домашнее задание "Операторы. Циклы"
-1. [ДЗ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%231/homework)
-2. [Практика](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%231/practice)
+[Операторы. Циклы](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%231)
 ## Функции
-1. [ДЗ](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232/homework)
-2. [Практика](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232/practice)
+[Функции](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%232)
 ## Поиск ошибок и отладка кода. Практика
-https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%233
+[Поиск ошибок и отладка кода](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%233)
 ## Массивы
-https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%234
+[Массивы](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%234)
 ## Объекты
-https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%235
+[Объекты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%235)
+## Встроенные возможности JavaScript
+[Встроенные возможности JavaScript](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%236)
