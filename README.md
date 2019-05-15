@@ -62,3 +62,7 @@
 [Объекты](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%235)
 ## Встроенные возможности JavaScript
 [Встроенные возможности JavaScript](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%236)
+## Продвинутый JavaScript
+[Продвинутый JavaScript](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%237)
+## DOM. Работа со страницей
+[DOM. Работа со страницей](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%238)

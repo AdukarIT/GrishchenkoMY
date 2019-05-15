@@ -60,3 +60,27 @@ wrapInParagraph();
 
 //Task 7 Реализуйте функцию normalizeClassNames, которая нормализует имена классов для всех элементов на странице.
 //В данном случае это означает что происходит преобразование всех классов написанных используя kebab нотацию в camelCase нотацию: text-center => textCenter
+
+function normalizeClassNames() {
+  let searchClass = document.body.getElementsByTagName("*");
+  for (var i = 0; i < searchClass.length; i++) {
+    let item = searchClass[i];
+    if (item.classList.length > 0) {
+      for (var j = 0; j < item.classList.length; j++) {
+        let tempClass = item.classList[j];
+        let arrClassName = tempClass.split("");
+        for (var k = 0; k < arrClassName.length; k++) {
+          if (arrClassName[k] == "-") {
+            delete arrClassName[k];
+            let tempStr = arrClassName[k + 1];
+            let tempSrtUpper = String(tempStr.toUpperCase());
+            arrClassName[k + 1] = tempSrtUpper;
+          }
+        }
+        let strClass = arrClassName.join("");
+        item.className = strClass;
+      }
+    }
+  }
+}
+normalizeClassNames();
