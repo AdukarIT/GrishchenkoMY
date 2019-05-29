@@ -66,3 +66,7 @@
 [Продвинутый JavaScript](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%237)
 ## DOM. Работа со страницей
 [DOM. Работа со страницей](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%238)
+## События. Координаты на странице
+[События. Координаты на странице](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%239)
+## Формы
+[Формы](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%2310)
