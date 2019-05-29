@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+  		<title>JSHW</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">\
+		<meta charset="utf-8">
+  </head>
+	<body>
+		<div class="tasks">
+			<div id="task1">
+				<h1>Task 1</h1>
+				<input id="cloneButton" type="button" value="Clone" onclick="cloneInput();"/>
+				<div class="task1_input">
+					<input type="text" name="Input"/>
+				</div>
+			</div>
+			<div id="task2">
+				<h1>Task 2</h1>
+				<table id="task2_table" onclick="handleTableClick();">
+					<tr>
+						<td>Task2</td>
+						<td>Task2</td>
+					</tr>
+					<tr>
+						<td>Task2</td>
+						<td>Task2</td>
+					</tr>
+				</table>
+			</div>
+			<div id="task3">
+				<h1>Task 3</h1>
+				<input type="radio" name="TableStyle" id="r1" value="Bordered" />
+				<label for="r1">Bordered</label>
+				<input type="radio" name="TableStyle" id="r2" value="Stripped" />
+				<label for="r2">Stripped</label>
+				<input type="radio" name="TableStyle" id="r3" value="Highlighted" />
+				<label for="r3">Highlighted</label>
+	
+				<table id="task3_table">
+					<tr>
+						<td>Task2</td>
+						<td>Task2</td>
+					</tr>
+					<tr>
+						<td>Task2</td>
+						<td>Task2</td>
+					</tr>
+				</table>
+			</div>
+			<div id="task4">
+				<h1>Task 4</h1>
+				<button id="button_with_text" onclick="alert(this.innerHTML);">Inner text 123</button>
+				<button onclick="removeOnClickHandler();">Disable Events</button>
+			</div>
+			<div id="task5">
+				<h1>Task 5</h1>
+				<button class="task4_elem">Task4 Button</button>
+				<p class="task4_elem">Task4 P</p>
+				<a class="task4_elem">Task4 A</a>
+				<div class="task4_elem">Task4 Div</div>
+			</div>
+			<div id="task6">
+				<h1>Task 6</h1>
+				<img src="image/0038.jpg" class="card" onmouseover="handleMouseOverEvent(this);" onmouseout="handleMouseOutEvent(this);" />
+			</div>
+			<div id="task7">
+				<h1>Task 7</h1>
+				<a href="#img1">
+				  <img src="image/70611.jpg" class="thumbnail"  onclick="openLightbox(this);"/>
+				</a>
+				<a href="#_" class="lightbox" id="img1">
+				  <img src="image/70611.jpg"/>
+				</a>
+			</div>
+		</div>
+	</body>
+	<script type = "text/javascript" src = "js/app.js"></script>
+</html>
