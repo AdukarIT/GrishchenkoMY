@@ -1,15 +1,20 @@
+"use strict"
 //Task 1 Создайте функцию, которая получает в качестве аргументов три числа и возвращает наименьшее из них.
 
 function smallestNum(a, b, c) {
-	if (a < b && b < c) {
+	if (a <= b && b <= c) {
 		return a;
-	} else if (b < a) {
+	} else if (b <= a) {
 		return b;
+	} else if (b >= a && b >= c) {
+		return a;
 	} else {
 		return c;
 	}
 }
 console.log(smallestNum(245, 443, 789));
+console.log(smallestNum(1, 3, 2));
+console.log(smallestNum(1, 1, 2));
 
 
 //Task 2 Создайте функцию, которая получает в качестве аргументов значения суток, часов и минут, а возвращает соответствующее им количество секунд.
@@ -35,7 +40,7 @@ console.log(factorial(5));
 
 //Task 4 Напишите рекурсивную функцию, которая разворачивает введённое число задом наперёд. Например, если на вход функция получает 1234, вернуть она должна 4321.
 
-let num = 2345;
+/*let num = 2345;
 
 function getReversedNum(num) {
   let result = 0;
@@ -45,7 +50,15 @@ function getReversedNum(num) {
   }
   return result;
 }
-console.log(getReversedNum(num));
+console.log(getReversedNum(num));*/
+
+function reverseString(str) {
+	if (str === "")
+		return "";
+	else
+		return reverseString(str.substr(1)) + str.charAt(0);
+}
+console.log(reverseString("1234"));
 
 //Task 5 Напишите функцию для решения квадратных уравнений. В качестве параметров она должна принимать коэффиценты a, b и c, возвращать – количество корней.
 //Сами корни уравнения (или информацию о их отсутствии) функция должна выводить в консоль. Примечание 1. Ищем только решения в действительных числах,

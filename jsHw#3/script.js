@@ -1,3 +1,4 @@
+"use strict";
 // Task 1 Создайте функцию, которая принимает три числа: два первых должны быть длиной сторон катетов прямоугольного треугольника,
 //а третье – длиной гипотенузы. Функция возвращает true, если такой прямоугольный треугольник возможен, и false, если нет.
 console.log('T   a   s   k   1');
@@ -22,13 +23,15 @@ if (isItTriangle(x, y, z)) {
 console.log('____________________________________________');
 console.log('T   a   s   k   2');
 
-function repeatStr(str, n) {
-	for (i = 1; i <= n; i++) {
-		console.log(str);
-	}
+function repeat(str = "", n = 2) {
+    let str1 = "";
+    while (n >= 1) {
+        str1 = str1 + str;
+        n--;
+    }
+    return str1;
 }
-
-repeatStr("empty", 2);
+console.log(repeat("Строка", 6));
 
 //Task 3 Создайте функцию, которая принимает два аргумента – количество учеников в классе и количество парт в кабинете.
 //Функция возвращает строку вида «не хватает 2 парт» / «1 лишняя парта».
@@ -140,19 +143,18 @@ sumOfNums();*/
 console.log('____________________________________________'); 
 console.log('T   a   s   k   7');
 
-function numSimpleCheck(x) {
-	for (i = 2; i < x; i++) {
-		let y = 1;
-		if (x % y == 0 && x % i !== 0) {
-			console.log('Число простое');
-			return;                       
-		} else {
-			console.log('Число не простое');
-			return;
-		}
-	}
+function numSimpleCheck(simpleNum) {
+    if (simpleNum < 2) {
+        return false;
+    }
+    for (let i = 2; i < simpleNum; i++) {
+        if (simpleNum % i == 0) {
+            return "непростое";
+        }
+    }
+    return "простое";
 }
-numSimpleCheck(119);
+console.log(numSimpleCheck(33));
 
 //Task 8 Создайте функцию, которая принимает в качестве аргумента целое число, соответствующее порядковому номеру месяца.
 //Если месяц с таким номером существует, функция возвращает имя сезона (лето, осень, зима, весна), к которому относится месяц. Если нет –сообщение об ошибке.
@@ -165,22 +167,18 @@ function nameOfSeason(monthNumber) {
 		case 1:
 		case 2:
 			return 'Winter';
-			break;
 		case 3:
 		case 4:
 		case 5:
 			return 'Spring';
-			break;
 		case 6:
 		case 7:
 		case 8:
 			return 'Summer';
-			break;
 		case 9:
 		case 10:
 		case 11:
 			return 'Autumn';
-			break;
 		default:
 			return 'Error';
 	}
@@ -193,7 +191,7 @@ console.log('____________________________________________');
 console.log('T   a   s   k   9');
 
 function someNums() {
-	for (i = 99; i >= 10; i--) {
+	for (let i = 99; i >= 10; i--) {
 		if (i % 7 == 0 || i % 10 == 7) {
 			console.log(i);
 		}
@@ -206,8 +204,8 @@ console.log('____________________________________________');
 console.log('T   a   s   k   10');
 
 function getDividers() {
-   for (i = 2; i <= 20; i++) {
-     for (j = 1; j <= 20; j++) {
+   for (let i = 2; i <= 20; i++) {
+     for (let j = 1; j <= 20; j++) {
        if (!(i % j)) {
          console.log(j);
        }
@@ -225,8 +223,8 @@ function getThisDividers(firstValue, secondValue) {
    if (firstValue < 2 || secondValue > 20){
       return console.log("Ошибка");
    }
-   for (i = firstValue; i <= secondValue; i++) {
-     for (j = 1; j <= secondValue; j++) {
+   for (let i = firstValue; i <= secondValue; i++) {
+     for (let j = 1; j <= secondValue; j++) {
        if (!(i % j)) {
          console.log(j);
        }
@@ -266,10 +264,10 @@ console.log('T   a   s   k   13');
 function NOD(numFirst, numSecond) {
   if(numSecond > 0) { 
     var f = numFirst% numSecond;
-    return nod(numSecond, f); 
+    return NOD(numSecond, f); 
   } 
   else { 
-    return abs(numFirst);  
+    return Math.abs(numFirst);  
   }
 }
 console.log(NOD(72, 48));
@@ -278,18 +276,18 @@ console.log(NOD(72, 48));
 console.log('____________________________________________'); 
 console.log('T   a   s   k   14');
 
-function NOD(numFirst, numSecond) {
+function recursiveNOD(numFirst, numSecond) {
 	if (numSecond > numFirst) return NOD(numSecond, numFirst);
 	if (!numSecond) return numFirst;
 	return NOD(numSecond, numFirst % numSecond);
 }
-console.log(NOD(72, 48));
+console.log(recursiveNOD(72, 48));
 
 //Task 15 Создайте функцию words(),  которая в зависимости от переданного в нее целого числа n, будет выводить слово «карандаш» в правильной форме («12 карандашей», но «22 карандаша»).
 console.log('____________________________________________'); 
 console.log('T   a   s   k   15');
 
-function words(quantity) {
+/*function words(quantity) {
 	if (quantity == 1 || quantity % 10 == 1 && quantity !== 11) {
 		return quantity + ' карандаш';
 	} else if (quantity > 1 && quantity < 5 || quantity % 10 == 2 && quantity !== 12 || quantity % 10 == 3 && quantity !== 13 || quantity % 10 == 4 && quantity !== 14 || !(quantity > 10) && !(quantity < 21)) {
@@ -299,7 +297,7 @@ function words(quantity) {
 	}
 }
 console.log(words(12));
-console.log(words(22));
+console.log(words(22));*/
 
 /*function words() {
 for (i = 0; i <= 100; i++) {
@@ -314,11 +312,24 @@ for (i = 0; i <= 100; i++) {
 }
 words();*/
 
+function words(quantity) {
+	if (quantity == 1 || quantity % 10 == 1 && quantity !== 11) {
+		return quantity + ' карандаш';
+	} else if (quantity % 10 > 1 && quantity % 10 < 5 && ((quantity - quantity % 10)/10 !=1)) {
+		return quantity + ' карандаша';
+	} else {
+		return quantity + ' карандашей';
+	}
+}
+console.log(words(12));
+console.log(words(22));
+
 //Task 16 Создайте функцию, которая проверяет, можно ли представить число в виде суммы квадратов двух целых однозначных чисел.
 console.log('____________________________________________'); 
 console.log('T   a   s   k   16');
 
 function sumSquares(digit) {
+	if (digit !=0) {
 	for (let i = 1; i < 10; i++) {
 		for (let j = 1; j < 10; j++) {
 			let frstN = i * i;
@@ -328,5 +339,9 @@ function sumSquares(digit) {
 			}
 		}
 	}
+} else {
+	return "Error";
+}
 }
 console.log(sumSquares(10));
+console.log(sumSquares(0));

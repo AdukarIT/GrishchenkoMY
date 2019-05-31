@@ -1,5 +1,6 @@
+"use strict";
 let sumOddNum = 0;
-for (i = 0; i <= 50; i++) {
+for (let i = 0; i <= 50; i++) {
 	if (i % 2 == 0) 
 	continue;
 sumOddNum += i;

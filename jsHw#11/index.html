@@ -1,0 +1,52 @@
+﻿<html>
+  <head>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+	<body>
+		<div class="tasks">
+			<div id="task1">
+				<h1>Task 1</h1>
+				Student Name: <input type="text" name="name" id="name_task1"/>
+				<br/>
+				Student Surname: <input type="text" name="surname" id="surname_task1" />
+				<br/>
+				Year started education: <input type="number" name="year" id="year_task1" />
+				<br/>
+				Result : <input type="text" id="resultId" class="result" />
+				<br/>
+				<input type="button" value="Create Student and Print Data" onclick="createStudent();"/>
+			</div>
+			<div id="task1">
+				<h1>Task 2</h1>
+				<h3>MENU</h3>
+				Big Tasty price: <input type="number" name="Big Tasty" id="big_task2_price" value="120" />
+				<label>Big Tasty calories: 300kcal</label>
+				<input type="button" value="Change Price" onclick="changePrice('Big Tasty');"/>
+				<br/>
+				<br/>
+				Chicken Burger price: <input type="number" name="Chicken Burger" id="chicken_task2_price" value="320" />
+				<label>Chicken Burger calories: 500kcal</label>
+				<input type="button" value="Change Price" onclick="changePrice('Chicken Burger');"/>
+				<br/>
+				<br/>
+				<h3>YOUR ORDER</h3>
+				How many Big Tasty do you need? <input type="number" name="big" id="big_task2"/>
+				<br/>
+				How many Chicken Burger do you need? <input type="number" name="chicken" id="chicken_task2" />
+				<br/>
+				Total cost and calories : <input type="text" id="resultId_task2" class="result" />
+				<br/>
+				<input type="button" value="Calculate" onclick="calculate();"/>
+			</div>
+			<div id="task3">
+				<h1>Task 3</h1>
+				Notes: <input type="text" name="notes" id="notes_task3"/>
+				<br/>
+				Select Date and Time for the notification: <input type="datetime-local" name="datetime" id="datetime_task3" />
+				<br/>
+				<input type="button" value="Schedule Notification" onclick="setTimer();"/>
+			</div>
+		</div>
+	</body>
+	<script type = "text/javascript" src = "js/app.js"></script>
+</html>
