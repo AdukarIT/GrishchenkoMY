@@ -3,7 +3,7 @@ console.log('T   a   s   k   1');
 
 function getRandomArray(len) {
 	let array = [];
-	for (i = 0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		array[i] = Math.random();
 	return array;
 }
@@ -13,16 +13,20 @@ console.log(getRandomArray(5));
 console.log('____________________________________________');
 console.log('T   a   s   k   2');
 
-function elementsOfArr(len) {
-	let arr = getRandomArray(5);
-	let sum = 0;
-		for (i = 0; i < len; i++)
-			sum += arr[i];
-	let average = sum / len;
-	return average;
+let randomArray = getRandomArray(5);
+function elementsOfArr(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  let average = sum / arr.length;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > average) {
+      console.log(arr[i]);
+    }
+  }
 }
-
-console.log(elementsOfArr(5));
+elementsOfArr(randomArray);
 
 //Task 3 Найдите два наименьших элемента массива.
 console.log('____________________________________________');
@@ -40,16 +44,18 @@ twoSmallElem(getRandomArray(5));
 console.log('____________________________________________');
 console.log('T   a   s   k   4');
 
-function delElem() {
-	let array = getRandomArray(5);
-	for (i = 0; i < array.length; i++) {
-		if (array[i] < 0.3) {
-			array.splice(i, 1);
-			array.push(0);
-		}
-	} return array;
+function removeItemArray() {
+  let mass = getRandomArray(5);
+  let newMass = [];
+  for (let i = 0; i < mass.length; i++) {
+    if (mass[i] < 3) {
+      mass.splice(i,1);
+      mass.push(0);
+    }
+  }
+  console.log(mass);
 }
-console.log(delElem());
+removeItemArray();
 
 //Task 5 Попарно сложите элементы двух массивов равной длины: первый массива 1 с последним массива 2, второй массива 1 с предпоследним массива 2 и так далее. Верните массив с результатами сложения.
 console.log('____________________________________________');
