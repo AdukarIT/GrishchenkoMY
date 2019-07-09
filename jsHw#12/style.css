@@ -1,0 +1,57 @@
+form {
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: 30px auto;
+  padding: 10px;
+  border: 2px solid;
+  font-size: 18px;
+  position: relative;
+}
+
+input, textarea {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+
+p {
+  color: red;
+}
+
+.btn {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+  height: 40px;
+  background-color: #fff;
+  position: relative;
+}
+
+#nameForm {
+  position: absolute;
+  left: 350px;
+  top: 35px;
+}
+
+#phoneForm {
+  position: absolute;
+  left: 350px;
+  top: 120px;
+}
+
+#emailForm {
+  position: absolute;
+  left: 350px;
+  top: 205px;
+}
+
+#textForm {
+  position: absolute;
+  left: 350px;
+  top: 310px;
+}

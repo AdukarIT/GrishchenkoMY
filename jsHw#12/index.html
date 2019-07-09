@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form method="post" class="reg-form" id="reg-form" action="#">
+		    <div class="form-field">
+		        <label for="name">Name: </label><br>
+		        <input type="text" id="name" name="name" type="name" placeholder="Enter name">
+		        <img src="https://www.devassist.co.uk/wp-content/uploads/2016/07/2000px-Tick_green_modern_2.svg_.png" id="nameForm" class="hidden">
+		        <p id="nameIncorrect"></p>
+
+		    </div>
+		    <div class="form-field">
+		        <label for="phone">Phone number: </label><br>
+		        <input type="text" id="phone" name="phone" type="phone" placeholder="Enter phone">
+		        <img src="https://www.devassist.co.uk/wp-content/uploads/2016/07/2000px-Tick_green_modern_2.svg_.png" id="phoneForm" class="hidden">
+		        <p id="phoneIncorrect"></p>
+		    </div>
+		    <div class="form-field">
+		        <label for="email">Email: </label><br>
+		        <input type="email" id="email" name="email" type="email" placeholder="mail@example">
+		        <img src="https://www.devassist.co.uk/wp-content/uploads/2016/07/2000px-Tick_green_modern_2.svg_.png" id="emailForm" class="hidden">
+		        <p id="emailIncorrect"></p>
+		    </div>
+		    
+		    <div class="form-field">
+		        <label for="message">Enter Your message: </label><br>
+		        <textarea id="message" name="message" placeholder="Enter message"></textarea>
+		        <img src="https://www.devassist.co.uk/wp-content/uploads/2016/07/2000px-Tick_green_modern_2.svg_.png" id="textForm" class="hidden">
+		        <p id="textIncorrect"></p>
+		    </div>
+		    <div class="form-btn">
+		        <input type="submit" value="Submit" class="btn">
+		    </div>
+		</form>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

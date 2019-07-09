@@ -74,3 +74,9 @@
 [ООП](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%2311)
 ## Проект CRUD
 [Car Shop](https://maksoun.github.io/ProjectCRUD/index.html)
+## Библиотека jQuery
+[Форма обратной связи](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%2312)
+## Библиотека jQuery. AJAX и анимации
+[База альбомов и фотографий](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%2313)
+## Проект Cocktails
+[Car Shop](https://maksoun.github.io/ProjectCocktail/index.html)
