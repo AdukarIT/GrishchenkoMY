@@ -78,5 +78,5 @@
 [Форма обратной связи](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%2312)
 ## Библиотека jQuery. AJAX и анимации
 [База альбомов и фотографий](https://github.com/AdukarIT/GrishchenkoMY/tree/master/jsHw%2313)
-## Проект Cocktails
-[Car Shop](https://maksoun.github.io/ProjectCocktail/index.html)
+## Проект API
+[Cocktails](https://maksoun.github.io/ProjectCocktail/index.html)
