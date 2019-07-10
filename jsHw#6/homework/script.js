@@ -8,7 +8,7 @@ console.log('T   a   s   k   1, 2');
 
 function randomArr(len, min, max) {
     let array = [];
-    for (let i = 0 && i >= min; i < len; i++) {
+    for (let i = 0; i < len; i++) {
         array[i] = Math.floor(Math.random() * max);  
     } return array;
 }
@@ -134,6 +134,9 @@ function getWeekDay(){
 			break;
 		case 0: 
 			console.log('Воскресенье');
+			break;
+		default:
+			console.log('Err');
 			break;
 	}
 }

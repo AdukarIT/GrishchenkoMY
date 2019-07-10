@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HWJS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+<table>
+        <tr>
+            <td>Имя клиента</td>
+            <td>Телефон</td>
+            <td>Дата обращения</td>
+            <td>Тип обращения</td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+        <tr class='empty'>
+            <td class='name'></td>
+            <td class='phone'></td>
+            <td class='date'></td>
+            <td class='type'></td>
+        </tr>
+
+    </table>
+
+    <div id="dialog" title="обращение">
+        <form id='modal'>
+            <div class='field'>
+                <label for='name'>Имя</label>
+                <input id='name' type='text' name='name'>
+            </div>
+            <div class='field'>
+                <label for='phone'>Телефон</label>
+                <input id='phone' type='tel' name='phone'>
+            </div>
+            <div class='field'>
+                <label for='date'>Дата обращения</label>
+                <input id='date' type='date' name='date'>
+            </div>
+            <div class='field'>
+                <label for='type'>Тип обращения</label>
+                <select id='type' name='type'>
+                    <option value='question'>вопрос</option>
+                    <option value='complaint'>жалоба</option>
+                    <option value='thanks'>благодарность</option>
+                </select>
+            </div>
+    </form>
+    </div>
+    <button id='openButton'>Новое обращение</button>
+
+	</body>
+</html>

@@ -46,9 +46,9 @@ let onePortions = {};
 function portionIngredients(favoriteRecipe) {
 	for(let key in favoriteRecipe.ingredients) {
 		onePortions[key] = favoriteRecipe.ingredients[key];
-			onePortions[key] = favoriteRecipe.ingredients[key] / 2;
+			onePortions[key] = favoriteRecipe.ingredients[key] / favoriteRecipe.numberOfServings;
 		}
-			onePortions.portions = favoriteRecipe.portions / 2;
+			onePortions.numberOfServings = favoriteRecipe.numberOfServings / favoriteRecipe.numberOfServings;
 		return onePortions;
 }
 
