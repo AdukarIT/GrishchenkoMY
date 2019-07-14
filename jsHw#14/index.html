@@ -1,77 +1,74 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>HWJS</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="script.js"></script>
-	</head>
-	<body>
-<table>
-        <tr>
-            <td>Имя клиента</td>
-            <td>Телефон</td>
-            <td>Дата обращения</td>
-            <td>Тип обращения</td>
-        </tr>
-        <tr class='empty'>
-            <td class='name'></td>
-            <td class='phone'></td>
-            <td class='date'></td>
-            <td class='type'></td>
-        </tr>
-        <tr class='empty'>
-            <td class='name'></td>
-            <td class='phone'></td>
-            <td class='date'></td>
-            <td class='type'></td>
-        </tr>
-        <tr class='empty'>
-            <td class='name'></td>
-            <td class='phone'></td>
-            <td class='date'></td>
-            <td class='type'></td>
-        </tr>
-        <tr class='empty'>
-            <td class='name'></td>
-            <td class='phone'></td>
-            <td class='date'></td>
-            <td class='type'></td>
-        </tr>
-        <tr class='empty'>
-            <td class='name'></td>
-            <td class='phone'></td>
-            <td class='date'></td>
-            <td class='type'></td>
-        </tr>
-
-    </table>
-
-    <div id="dialog" title="обращение">
-        <form id='modal'>
-            <div class='field'>
-                <label for='name'>Имя</label>
-                <input id='name' type='text' name='name'>
-            </div>
-            <div class='field'>
-                <label for='phone'>Телефон</label>
-                <input id='phone' type='tel' name='phone'>
-            </div>
-            <div class='field'>
-                <label for='date'>Дата обращения</label>
-                <input id='date' type='date' name='date'>
-            </div>
-            <div class='field'>
-                <label for='type'>Тип обращения</label>
-                <select id='type' name='type'>
-                    <option value='question'>вопрос</option>
-                    <option value='complaint'>жалоба</option>
-                    <option value='thanks'>благодарность</option>
-                </select>
-            </div>
-    </form>
-    </div>
-    <button id='openButton'>Новое обращение</button>
-
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery plugins</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+	<script type="text/javascript" charset="utf8" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+	<table id="table_id" class="display">
+		<thead>
+			<tr>
+				<th>Имя клиента</th>
+				<th>Телефон</th>
+				<th>Дата обращения</th>
+				<th>Тип обращения</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	</br>
+	<button name="new_request" onclick="createRequest();">Новое обращение</button>
+	<button name="remove_records" onclick="removeRecords();">Удалить</button>
+	<input class="modal-state" id="modal-1" type="checkbox" />
+	<div class="modal">
+		<label class="modal__bg" for="modal-1"></label>
+		<div class="modal__inner">
+			<label class="modal__close" for="modal-1"></label>
+			<div id="modal-body">
+				<h1>Новое обращение</h1>
+				<form id="request_form">
+					<table>
+						<tr>
+							<td>Имя</td>
+							<td>
+								<input type="text" name="name" placeholder="Имя" id="name_input">
+							</td>
+						</tr>
+						<tr>
+							<td>Телефон</td>
+							<td>
+								<input type="tel" name="phone" placeholder="Телефон" id="phone_input">
+							</td>
+						</tr>
+						<tr>
+							<td>Дата обращения</td>
+							<td>
+								<input type="date" name="date" id="date_input">
+							</td>
+						</tr>
+						<tr>
+							<td>Тип обращения</td>
+							<td>
+								<select name="type" id="type_input">
+									<option value="Вопрос" selected="selected">Вопрос</option>
+									<option value="Благодарность">Благодарность</option>
+									<option value="Жалоба">Жалоба</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					</br>
+					<button type="button" onclick="add(this.form);">Добавить</button>
+					<button type="button" name="cancel" id="cancel_btn">Отмена</button>
+				</form>			
+			</div>
+		</div>
+	</div>
+    <script src="js/app.js"></script>
+</body>
 </html>
